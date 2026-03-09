@@ -1,0 +1,7 @@
+src/
+  lib/neon.js          ← Neon query helper + utilities
+  hooks/useUser.jsx    ← User context provider
+  components/          ← Sidebar, Topbar, WelcomeModal, ConfessionCard,
+                          FullViewModal, Toast
+  pages/               ← MainApp, FeedSection, ChatSection, ProfileSection, AdminPage
+  styles/global.css    ← Full redesigned CSS
