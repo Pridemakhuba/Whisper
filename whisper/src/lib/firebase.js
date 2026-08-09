@@ -32,13 +32,12 @@ import {
 
 // 🔧 REPLACE with your Firebase project config
 const firebaseConfig = {
-  apiKey: "AIzaSyBEibQYOT6xtgQmoTmM0ejkXhGnxiD4gKU",
-  authDomain: "whispernet-a36c7.firebaseapp.com",
-  projectId: "whispernet-a36c7",
-  storageBucket: "whispernet-a36c7.firebasestorage.app",
-  messagingSenderId: "275222769224",
-  appId: "1:275222769224:web:a1283e6e331e903a33327d"
-};
+  apiKey: "AIzaSyC9z5TmK1aJUulrEIscwe9MZ5qcusJMOpc",
+    authDomain: "blueflare-47c29.firebaseapp.com",
+    projectId: "blueflare-47c29",
+    storageBucket: "blueflare-47c29.firebasestorage.app",
+    messagingSenderId: "348839866641",
+    appId: "1:348839866641:web:64fb433419c80c15dddcb0"};
 
 const app = initializeApp(firebaseConfig)
 export const db = getFirestore(app)
